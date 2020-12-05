@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-
 from functools import reduce
 
 with open('./input.txt') as infile:
@@ -19,10 +18,8 @@ def trees_encountered(step_x, step_y):
         count += tree_at_coord(x,y)
     return count
 
-
 # Part 1 ######################################################################
 print('Trees encountered:', trees_encountered(3,1))
-
 
 # Part 2 ######################################################################
 slopes = [
